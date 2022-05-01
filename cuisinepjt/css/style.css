@@ -1,0 +1,243 @@
+/* Box Model Hack */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Clear fix hack */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/******************************************
+    /* BASE STYLES
+    /*******************************************/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+.flex-container {
+  justify-content: space-around;
+  
+  display: flex;
+padding: 20px;
+padding-bottom: 50px;
+}
+ 
+.header {
+  background-image: url(../images/background2.png);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  
+}
+.header nav {
+  display: flex;
+  justify-content:flex-end;
+  padding-left: 700px;
+}
+.header nav li{
+  list-style: none;
+  margin-left: 15px;
+display: inline-block;
+
+
+}
+li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+h1{
+  font-size: 40px;
+  color: black;
+margin-left: 50px;
+  margin-top: 50px;
+ 
+}
+h2{
+  font-size: 60px;
+  text-align: center;
+ 
+}
+.hot{
+  margin-left: 50px;
+  margin-top: 50px; 
+}
+.top{
+
+  
+text-align: center;
+background-image: url(../images/index.png);
+
+background-repeat: no-repeat,
+no-repeat;
+background-position-x: -3%;
+
+}
+
+.top p{
+  text-align: left;
+  padding-left: 550px;
+  
+}
+
+.title{
+  color: orange;
+font-weight: 400;
+font-size: 25px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.btn{
+  background-color: orange;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.second{
+  background-color: #f2f6f7;
+  height: 100%;
+  width: 100%;
+  
+}
+.up, .down{
+  
+  margin-left: 50px;
+  padding-left: 280px;
+  padding-bottom: 50px;
+  
+}
+.down{
+ 
+  padding-left: 280px;
+  padding-bottom: 50px;
+}
+.down img{
+  padding-left: 10px;
+}
+
+.gold{
+  padding-left: 280px;
+  padding-bottom: 50px;
+}
+.gold li{
+  padding-left: 50px;
+}
+.break{
+  color: orange
+}
+.teal{
+ text-align: center;
+}
+.third{
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/MUGS.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.num1{
+  margin-left: 100px;
+
+}
+.num2{
+  margin-left: 100px;
+}
+
+
+
+  
+.line{
+  padding-left: 280px;
+  width: 50%;
+  margin-bottom: 60px;
+ 
+}
+.scroll{
+  align-items: flex-end
+}
+
+
+
+.green{
+  color: orange;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.pic{
+ margin-left: 600px;
+
+}
+.pic1{
+  margin-left: 420px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.nine{
+  padding-left: 300px;
+  font-weight: 600;
+}
+.seven{
+  padding-left: 280px;
+}
+.six{
+  padding-left: 300px;
+}
+.eight{
+  padding-left: 305px;
+  font-weight: 600;
+}
+.pic2{
+  margin-left: 200px;
+  padding-bottom: 25px;
+ 
+}
+.pic3{
+  margin-left: 225px;
+  padding-bottom: 25px;
+ 
+}
+.yellow{
+  margin-left: 320px;
+}
+@media screen and (max-width: 600px) {
+  .header nav {
+    padding-left: 0;
+  }
+  .header nav li {
+    margin-left: 0;
+  }
+  .header nav li a {
+    font-size: 14px;
+  }
+  
+ 
+
+}
+@media(max-width: 600px){
+  /* desktop first*/
+}
